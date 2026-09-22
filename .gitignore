@@ -1,0 +1,20 @@
+# Ignore bundler and vendor
+backend/vendor/bundle/
+backend/tmp/
+backend/log/
+backend/.byebug_history
+backend/storage/
+
+# Ignore node_modules & build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Ignore environment variables
+.env
+.env.local
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
