@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: <%= ENV.fetch("DATABASE_HOST") { "localhost" } %>
+  username: <%= ENV.fetch("DATABASE_USER") { "acme" } %>
+  password: <%= ENV.fetch("DATABASE_PASSWORD") { "acmepassword" } %>
+  port: <%= ENV.fetch("DATABASE_PORT") { 5432 } %>
+
+development:
+  <<: *default
+  database: <%= ENV.fetch("DATABASE_NAME") { "acme_salary_development" } %>
+
+test:
+  <<: *default
+  database: acme_salary_test
+
+production:
+  <<: *default
+  database: <%= ENV.fetch("DATABASE_NAME") { "acme_salary_production" } %>
