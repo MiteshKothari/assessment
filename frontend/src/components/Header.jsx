@@ -11,7 +11,7 @@ export default function Header({ totalHeadcount = 10000 }) {
           </div>
           <div>
             <div className="brand-title">ACME Org • Compensation Management</div>
-            <div className="brand-subtitle">Strategic HR Salary Platform (10,000 Employees)</div>
+            <div className="brand-subtitle">Strategic HR Salary Platform</div>
           </div>
         </div>
 
