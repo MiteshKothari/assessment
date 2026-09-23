@@ -8,7 +8,7 @@ This document records the strategic use of AI assistance during the planning, ar
 
 In this assessment, AI is used not as an unguided code generator, but as an **augmented engineering partner** with structured guardrails:
 1. **Product Framing First**: Before touching code, AI was prompted to draft a rigorous 1-page PRD defining the HR Manager persona, pain points, core metrics, and what is deliberately left out.
-2. **Architectural Review & Feedback Loop**: Incorporating direct user feedback (disallowing Tailwind CSS, standardizing on INR currency, targeting `E:\Assessment`, and selecting PostgreSQL + Ruby on Rails Docker containerization).
+2. **Architectural Review & Feedback Loop**: Incorporating direct user feedback (disallowing Tailwind CSS, standardizing on INR currency, and selecting PostgreSQL + Ruby on Rails Docker containerization).
 3. **Performance-Driven Data Modeling**: Directing the AI to avoid memory-heavy anti-patterns (such as loading 10,000 ActiveRecord objects in memory) by designing database-native SQL aggregations (`PERCENTILE_CONT`, composite indexes, bulk `insert_all` seeds).
 4. **Test-First Verification**: Using AI to generate fast, deterministic unit, model, and API tests.
 

@@ -1,7 +1,7 @@
 # Video Demo Script & Walkthrough Guide
 ## ACME Org Employee Salary Management Platform
 
-**Target Audience / Persona**: Sarah Chen, Global HR Director / People Operations Lead  
+**Target Audience / Persona**: Global HR Director / People Operations Lead  
 **Scale**: 10,000 Employees across 6 Global Locations & 8 Departments  
 **Standard Currency**: Indian Rupee (INR - ₹)  
 **System URL**: [http://localhost:3000](http://localhost:3000)  

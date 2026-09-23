@@ -23,7 +23,7 @@ export default function Header({ totalHeadcount = 10000 }) {
 
           <div className="persona-badge">
             <UserCheck size={16} color="#3b82f6" />
-            <span>Sarah Chen (HR Director)</span>
+            <span>HR Director</span>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 # ACME Org: Employee Salary Management & Compensation Platform
 
-A high-performance, web-based salary management and compensation analytics platform built for the **HR Director (Sarah Chen)** of ACME Org to manage **10,000 employees** across global offices, eliminate spreadsheet bottlenecks, track audited salary revisions, and answer strategic questions about organizational pay equity and compensation health in **Indian Rupees (INR - ₹)**.
+A high-performance, web-based salary management and compensation analytics platform built for the **HR Director** of ACME Org to manage **10,000 employees** across global offices, eliminate spreadsheet bottlenecks, track audited salary revisions, and answer strategic questions about organizational pay equity and compensation health in **Indian Rupees (INR - ₹)**.
 
 ---
 
@@ -43,7 +43,7 @@ A high-performance, web-based salary management and compensation analytics platf
 - [Docker](https://docs.docker.com/get-docker/) & Docker Compose installed.
 
 ### Launch Application
-From the project root (`E:\Assessment`):
+From the project root 
 ```bash
 docker compose up -d
 ```

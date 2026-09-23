@@ -4,7 +4,7 @@
 **Document Version**: 1.0  
 **Target Scale**: 10,000 Employees  
 **Primary Currency**: Indian Rupee (INR - ₹)  
-**Primary Persona**: Sarah Chen, HR Director / Compensation Lead  
+**Primary Persona**: HR Director / Compensation Lead  
 
 ---
 
@@ -31,7 +31,7 @@ Currently, ACME Org’s HR team manages salary data for 10,000 employees across 
 ---
 
 ### 3. User Persona
-- **Persona**: Sarah Chen
+- **Persona**: 
 - **Role**: HR Director / Global People Operations Lead at ACME Org
 - **Key Responsibilities**:
   - Oversees compensation planning, annual merit cycles, and pay equity compliance.
